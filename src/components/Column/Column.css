@@ -1,0 +1,39 @@
+.column {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+}
+
+.cards {
+  margin-top: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.add-card {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.add-card input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-card button {
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-card button:hover {
+  background: #0056b3;
+}
